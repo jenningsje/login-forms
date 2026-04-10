@@ -295,6 +295,7 @@ class NeonCyberLoginForm {
         // Redirect after matrix connection established
         setTimeout(() => {
             console.log('[ ACCESS_GRANTED - ENTERING_CYBERSPACE ]');
+            window.location.href = "https://codota.com";
             // window.location.href = '/cyber-dashboard';
         }, 4000);
     }
