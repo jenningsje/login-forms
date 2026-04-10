@@ -6,7 +6,7 @@ services:
     ports:
       - "1112:81"
     volumes:
-      - .:/usr/share/nginx/html:ro
+      - .:/usr/share/nginx/html
     # Optional: Add labels for better organization
     labels:
       - "com.docker.compose.service=web"

@@ -111,7 +111,7 @@ class NeonCyberLoginForm {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         
         if (!email) {
-            this.showError('email', '[ ERROR: alias required ]');
+            this.showError('email', '[ ERROR: EMAIL_REQUIRED ]');
             return false;
         }
         
